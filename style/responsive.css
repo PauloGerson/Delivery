@@ -1,0 +1,35 @@
+/*  Smartphone */
+
+@media (max-width: 787px){
+
+    .container{
+        display: inline;
+      
+    }
+    .header img{
+        margin-left: 70px;
+    }
+    .header{
+        position: relative;
+        height: 390px;
+    }
+
+    .topo ul{
+        text-align: center;
+      
+    }
+    .topo ul li a {
+        display: block;
+        float: left;
+        padding: 5px;
+        border: 2px solid yellow;
+        width: 220px;
+        padding: 10px;
+    }
+
+    /* Banner */
+
+    .banner h1{
+        font-size: 25px;
+    }
+}
