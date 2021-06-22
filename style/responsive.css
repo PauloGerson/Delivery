@@ -1,35 +1,82 @@
 /*  Smartphone */
 
-@media (max-width: 787px){
+@media (max-width: 787px) {
+   
+  .container {
+    display: inline;
+  }
+  .header img {
+    margin-left: 70px;
+  }
+  .header {
+    position: relative;
+    height: 390px;
+  }
 
-    .container{
-        display: inline;
-      
-    }
-    .header img{
-        margin-left: 70px;
-    }
-    .header{
-        position: relative;
-        height: 390px;
-    }
+  .topo ul {
+    text-align: center;
+  }
+  .topo ul li a {
+    display: block;
+    float: left;
+    padding: 5px;
+    border: 2px solid yellow;
+    width: 220px;
+    padding: 10px;
+  }
+  /* Combos */
+  .combo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .combo-img {
+    width: 300px;
+  }
+  .petiscos h2 {
+    font-size: 1.5rem;
+  }
 
-    .topo ul{
-        text-align: center;
-      
-    }
-    .topo ul li a {
-        display: block;
-        float: left;
-        padding: 5px;
-        border: 2px solid yellow;
-        width: 220px;
-        padding: 10px;
-    }
+  /* bebida */
 
-    /* Banner */
+  .img-bebida {
+    width: 10rem;
+  }
+  .itens {
+    width: 100vw;
+  }
+  .slide h3 {
+    font-size: 1.5rem;
+  }
 
-    .banner h1{
-        font-size: 25px;
-    }
+  /* Banner */
+
+  .banner h1 {
+    font-size: 1.5rem;
+  }
+
+  /* Localização */
+
+  .location2 {
+    width: 350px;
+  }
+  .localizacao h2 {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    width: 320px;
+  }
+  .btn a {
+    font-size: 22px;
+  }
+
+  .btn a img {
+    font-size: 20px;
+    margin-bottom: -1rem;
+  }
+  footer h3 {
+      font-size: 1rem;
+  }
 }
