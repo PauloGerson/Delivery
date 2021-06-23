@@ -6,45 +6,88 @@
 }
 body {
   overflow-x: hidden;
-  
+ 
 }
 .container {
   display: flex;
-  justify-content: space-around;
+  
+  
 }
-img{
+img {
   max-width: 100vw;
 }
-.one {
-  width: 100vw;
-  height: 4px;
-  background-color: #f2e41b;
-}
+
 .imgLogo {
-  width: 200px;
+  width: 150px;
 }
 header {
   width: 100vw;
-  background-color: #d90404;
+  background: #13436A;
   padding: 25px;
 }
+.containerH{
+  display: flex;
+  justify-content: space-around;
+
+}
+.containerText{
+  margin-top: 8rem;
+}
+.txt1{
+  color: #E8C40C;
+  font-family: 'Montserrat', sans-serif;
+}
+.txt2{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 5rem;
+  margin: 0;
+}
+.txt3{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  width: 29rem;
+}
+.btn1{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 2rem;
+  background: #FBB636;
+  padding: 12px;
+  color: black;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: .3s;
+}
+
+.btn1:hover{
+  background: #E8C40C;
+}
+
+.burger{
+  width: 29rem;
+  height: 39rem;
+}
+
 .topo {
   text-align: right;
+  margin-top: 2rem;
 }
 
 .topo ul li {
   display: inline-block;
   margin-left: 30px;
-  margin-top: 40px;
+  
 }
 
 .topo ul li a {
-  font-family: "Arial";
+  font-family: "Montserrat";
   font-size: 15px;
-  font-weight: bold;
+  font-weight: 400;
   color: #fff;
   line-height: 15px;
-  text-transform: uppercase;
   text-decoration: none;
   line-height: 1px;
 }
@@ -52,9 +95,78 @@ header {
   color: #f2e41b;
 }
 
+/* Principal */
+
+.BestCardapio{
+  display: flex;
+  justify-content: center;
+
+}
+.txt4{
+  font-family: "Montserrat";
+  margin: 0;
+}
+.txt5{
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+.txt6{
+  font-family: "Roboto";
+  width: 18rem;
+  font-size: 14px;
+  margin: 1rem 0;
+
+}
+.price{
+  display: flex;
+
+}
+.priceP{
+  margin-top: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.btnC2{
+ 
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 2rem;
+  background: #FBB636;
+  padding: 10px;
+  color: black;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: .3s;
+  margin-left: 1rem;
+}
+
+.cardapio{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat";
+}
+
+.txtC{
+text-align: center;
+  font-family: "Montserrat";
+}
+.imgB{
+  width: 200px;
+}
+.burgers2{
+  background-color: white;
+  margin-left: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
 /*  banner*/
 
-.container-1 {
+/* .container-1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -89,10 +201,10 @@ header {
 }
 .banner a:hover {
   background-color: #e78413;
-}
+} */
 
 /* Combos */
-.petiscos h2 {
+/* .petiscos h2 {
   font-family: "Montserrat";
   font-size: 30px;
   text-align: center;
@@ -162,11 +274,11 @@ header {
 
 .combo h4 a:hover {
   background-color: red;
-}
+} */
 
 /* bebida */
 
-.img-bebida {
+/* .img-bebida {
   width: 220px;
 }
 .slide h3 {
@@ -207,7 +319,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
 /* Localização */
 
@@ -222,90 +334,82 @@ header {
   margin-top: 2rem;
   width: 900px;
   height: 500px;
-  text-align: center;
   margin-bottom: 50px;
 }
 .localizacao h2 {
   margin-top: 2rem;
   font-family: "Montserrat";
   font-size: 30px;
-  text-align: center;
-  color: red;
   text-transform: uppercase;
 }
 
 .localizacao p {
-    color: #e78413;
-    font-size: 20px;
-    font-weight: 300;
-    font-family: "Montserrat";
-    text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-  }
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Montserrat";
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+} 
 
-  /* Footer */
-.container-5{
-    display: flex;
-    justify-content: center;
-    align-items:center;
+/* Footer */
+.container-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-  .btn{
-      width: 40rem;
-      height: 5rem;
-      background-color: green;
-      padding: 12px;      
-      color: white;
-      margin-bottom: 2rem;
-      border-radius: 50px;
-      transition: .3s;
-  }
-  .btn a {
-      text-decoration: none;
-      color: white;
-      font-size: 40px;
-      font-family: 'Poppins';
-  }
+.btn2 {
+  width: 40rem;
+  height: 5rem;
+  background-color: green;
+  padding: 12px;
+  color: white;
+  margin-bottom: 2rem;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+.btn2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  font-family: "Poppins";
+}
 
-  .btn:hover{
-     background-color: rgb(37, 146, 64);
-  }
+.btn2:hover {
+  background-color: rgb(37, 146, 64);
+}
 
-  footer{
-      width: 100vw;
-      height: 60px;
-      background: red;
-  }
-  footer h3{
-      font-family: "Montserrat";
-      font-size: 20px;
-      color: white;
-      text-align: center;
-      line-height: 50px;
-  }
+footer {
+  width: 100vw;
+  height: 60px;
+  background: #13436A;
+}
+footer h3 {
+  font-family: "Montserrat";
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
 
-  /* Scroll*/
+/* Scroll*/
 
+::-webkit-scrollbar {
+  width: 4px; /* width of the entire scrollbar */
+}
 
-  ::-webkit-scrollbar {
-    width: 4px;               /* width of the entire scrollbar */
-  }
+::-webkit-scrollbar-track {
+  background: #f2e41b; /* color of the tracking area */
+}
 
-  ::-webkit-scrollbar-track {
-    background: #f2e41b;        /* color of the tracking area */
-  }
-  
 ::-webkit-scrollbar-thumb {
-    width: 4px;
-    background-color: red;    /* color of the scroll thumb */
-      /* roundness of the scroll thumb */
-    /* creates padding around scroll thumb */
-  }
+  width: 4px;
+  background-color: red; /* color of the scroll thumb */
+  /* roundness of the scroll thumb */
+  /* creates padding around scroll thumb */
+}
 
-  body{
-             
-    scrollbar-color: red #f2e41b; 
-    scrollbar-width: auto;
-   
-  }
+body {
+  scrollbar-color: red #f2e41b;
+  scrollbar-width: auto;
+}
