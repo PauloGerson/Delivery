@@ -6,12 +6,10 @@
 }
 body {
   overflow-x: hidden;
- 
 }
 .container {
   display: flex;
-  
-  
+  justify-content: space-around;
 }
 img {
   max-width: 100vw;
@@ -21,56 +19,54 @@ img {
   width: 150px;
 }
 header {
-  width: 100vw;
-  background: #13436A;
-  padding: 25px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #13436a;
 }
 
-.containerH{
+.containerH {
   display: flex;
- 
-
 }
-.containerText{
+.containerText {
   margin-top: 8rem;
 }
-.txt1{
-  color: #E8C40C;
-  font-family: 'Montserrat', sans-serif;
+.txt1 {
+  color: #e8c40c;
+  font-family: "Montserrat", sans-serif;
 }
-.txt2{
+.txt2 {
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-size: 5rem;
   margin: 0;
 }
-.txt3{
+.txt3 {
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   width: 29rem;
 }
-.btn1{
-  font-family: 'Montserrat', sans-serif;
+.btn1 {
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   margin-top: 2rem;
-  background: #FBB636;
+  background: #fbb636;
   padding: 12px;
   color: black;
   cursor: pointer;
   border-radius: 4px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-.btn1:hover{
-  background: #E8C40C;
+.btn1:hover {
+  background: #e8c40c;
 }
 
-.burger{
+.burger {
   width: 29rem;
   height: 39rem;
- 
 }
 
 .topo {
@@ -81,7 +77,6 @@ header {
 .topo ul li {
   display: inline-block;
   margin-left: 30px;
-  
 }
 
 .topo ul li a {
@@ -99,52 +94,54 @@ header {
 
 /* Principal */
 
-.BestCardapio{
+.BestCardapio {
   display: flex;
   justify-content: center;
-
 }
-.txt4{
+.txt4 {
   font-family: "Montserrat";
   margin: 0;
 }
-.txt5{
+.txt5 {
   font-family: "Montserrat";
   font-weight: 500;
 }
-.txt6{
+.txt6 {
   font-family: "Roboto";
   width: 18rem;
   font-size: 14px;
   margin: 1rem 0;
-
 }
-.price{
+.containerText1 {
+  margin-top: 6.5rem;
+}
+.burgers1 {
+  width: 30rem;
+}
+.price {
   display: flex;
-
 }
-.priceP{
+.priceP {
   margin-top: 2.5rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 700;
 }
-.btnC2{
- 
-  font-family: 'Montserrat', sans-serif;
+.btnC2 {
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   margin-top: 2rem;
-  background: #FBB636;
+  background: #fbb636;
   padding: 10px;
   color: black;
   cursor: pointer;
   border-radius: 4px;
-  transition: .3s;
+  transition: 0.3s;
   margin-left: 1rem;
 }
 
-.cardapio{
+.cardapio {
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -153,24 +150,24 @@ header {
   margin: 7rem 0px 7rem;
 }
 
-.txtC{
-text-align: center;
+.txtC {
+  text-align: center;
   font-family: "Montserrat";
 }
-.imgB{
+.imgB {
   width: 200px;
 }
-.burgers2{
+.burgers2 {
   background-color: white;
   margin-left: 1rem;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 20px;
   text-align: center;
   border-radius: 10px;
 }
 /* bebida */
 
- .img-bebida {
+.img-bebida {
   width: 220px;
 }
 .slide h3 {
@@ -182,7 +179,6 @@ text-align: center;
 }
 
 .slide p {
-
   font-size: 20px;
   font-weight: 300;
   font-family: "Montserrat";
@@ -210,7 +206,7 @@ text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-} 
+}
 
 /* Localização */
 
@@ -240,7 +236,7 @@ text-align: center;
   font-family: "Montserrat";
   margin-bottom: 2rem;
   margin-top: 1rem;
-} 
+}
 
 /* Footer */
 .container-5 {
@@ -273,7 +269,7 @@ text-align: center;
 footer {
   width: 100vw;
   height: 60px;
-  background: #13436A;
+  background: #13436a;
 }
 footer h3 {
   font-family: "Montserrat";
