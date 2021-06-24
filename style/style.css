@@ -25,9 +25,10 @@ header {
   background: #13436A;
   padding: 25px;
 }
+
 .containerH{
   display: flex;
-  justify-content: space-around;
+ 
 
 }
 .containerText{
@@ -69,6 +70,7 @@ header {
 .burger{
   width: 29rem;
   height: 39rem;
+ 
 }
 
 .topo {
@@ -146,7 +148,9 @@ header {
   width: 100vw;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   font-family: "Montserrat";
+  margin: 7rem 0px 7rem;
 }
 
 .txtC{
@@ -164,121 +168,9 @@ text-align: center;
   text-align: center;
   border-radius: 10px;
 }
-/*  banner*/
-
-/* .container-1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.banner {
-  background-color: #be6e46;
-  width: 100vw;
-  height: 400px;
-  background-size: cover;
-  text-align: center;
-  margin-bottom: 2rem;
-}
-.banner h1 {
-  font-family: "Poppins";
-  font-size: 50px;
-  font-weight: bold;
-  color: white;
-  text-transform: uppercase;
-  margin-top: 110px;
-  text-shadow: black 2px 2px 10px;
-}
-.banner a {
-  text-decoration: none;
-  color: #fff;
-  font-family: "Roboto";
-  background-color: #e60808;
-  width: 14rem;
-  padding: 12px;
-  border-radius: 10px;
-  transition: all 0.3s;
-}
-.banner a:hover {
-  background-color: #e78413;
-} */
-
-/* Combos */
-/* .petiscos h2 {
-  font-family: "Montserrat";
-  font-size: 30px;
-  text-align: center;
-  color: red;
-  text-transform: uppercase;
-}
-.petiscos p {
-  color: #e78413;
-  font-size: 20px;
-  font-weight: 300;
-  font-family: "Montserrat";
-  text-align: center;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
-}
-.combo {
-  display: flex;
-  justify-content: center;
-}
-.combo li {
-  list-style-type: none;
-}
-.combo h3 {
-  color: white;
-  font-family: "Roboto";
-  text-align: center;
-  background-color: #d90404;
-  padding: 12px;
-}
-.combo-img {
-  width: 300px;
-  -webkit-transition: -weblit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-}
-.combo-img:hover {
-  -weblit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-.combo p {
-  font-family: "Roboto";
-  font-size: 17px;
-  line-height: 20px;
-  margin-bottom: 20px;
-  color: black;
-  text-transform: initial;
-  text-align: center;
-}
-.combo h4 {
-  font-family: "Roboto";
-  font-size: 17px;
-  line-height: 20px;
-  margin-bottom: 10px;
-  color: black;
-  text-transform: initial;
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.combo h4 a {
-  border-radius: 5px;
-  text-decoration: none;
-  color: white;
-  background-color: green;
-  padding: 10px;
-  transition: 0.3s;
-}
-
-.combo h4 a:hover {
-  background-color: red;
-} */
-
 /* bebida */
 
-/* .img-bebida {
+ .img-bebida {
   width: 220px;
 }
 .slide h3 {
@@ -286,12 +178,11 @@ text-align: center;
   font-family: "Montserrat";
   font-size: 30px;
   text-align: center;
-  color: red;
   text-transform: uppercase;
 }
 
 .slide p {
-  color: #e78413;
+
   font-size: 20px;
   font-weight: 300;
   font-family: "Montserrat";
@@ -319,7 +210,7 @@ text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-} */
+} 
 
 /* Localização */
 

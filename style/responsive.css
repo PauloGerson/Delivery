@@ -1,82 +1,173 @@
 /*  Smartphone */
 
-@media (max-width: 787px) {
-   
-  .container {
-    display: inline;
-  }
-  .header img {
-    margin-left: 70px;
-  }
-  .header {
-    position: relative;
-    height: 390px;
-  }
+.btn-mobile{
+  display: none;
+}
 
-  .topo ul {
-    text-align: center;
+
+/* Desktop */
+@media (min-width:1451px){
+  .burger{
+    width: 35rem;
+    height: 35rem;
+    margin-left: 10rem;
+    background-color: black;
   }
-  .topo ul li a {
-    display: block;
-    float: left;
-    padding: 5px;
-    border: 2px solid yellow;
-    width: 220px;
-    padding: 10px;
+  .burgers2{
+  
   }
-  /* Combos */
-  .combo {
+}
+@media (max-width:1450px){
+  .txt1{
+    color: #E8C40C;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .txt2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin: 0;
+  }
+  .txt3{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 29rem;
+    font-size:1rem ;
+  }
+  .btn1{
+    font-size: 15px;
+    padding: 8px;
+  }
+  .burger{
+    width: 25rem;
+    height: 28rem;
+    margin-left: 9rem;
+    background-color: red;
+  }
+ 
+  
+}
+
+@media (max-width:1250px){
+  .burger{
+    margin: 3rem 0px 0px 9rem;
+    width: 21rem;
+    height: 24rem;
+    background-color: antiquewhite;
+   
+  }
+  .burgers2{
+    margin-bottom: 2rem;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+  }
+ 
+  
+}
+
+@media (max-width:1115px){
+  .txt1{
+    color: #E8C40C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+  }
+  .txt2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 0;
+  }
+  .txt3{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 29rem;
+    font-size: 12px;
+  }
+  .btn1{
+    font-size: 15px;
+    padding: 8px;
+  }
+  .burger{
+    margin-left: 6rem;
+    width: 19rem;
+    height: 22rem;
+    background-color: blueviolet;
+  }
+  .burgers2{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    width: 400px;
   }
-  .combo-img {
-    width: 300px;
-  }
-  .petiscos h2 {
-    font-size: 1.5rem;
+ 
+}
+/* Mobile */
+@media (max-width:900px){
+.burger{
+ display: none;
+}
+.containerH{
+
+  display: flex;
+  justify-content: center;
+  margin-left: 8rem;
+
+}
+.txt1{
+  color: #E8C40C;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+.txt2{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 4rem;
+  margin: 0;
+}
+.txt3{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  width: 29rem;
+  font-size: 13px;
+}
+.burgers2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+}
+
+
+
+@media (max-width: 800px) {
+  .menu{
+    display: none;
   }
 
-  /* bebida */
+   /* .btn-mobile{
+     display: block;
+     cursor: pointer;
 
-  .img-bebida {
-    width: 10rem;
-  }
-  .itens {
-    width: 100vw;
-  }
-  .slide h3 {
-    font-size: 1.5rem;
-  }
+   }
+   .menu{
+     position: absolute;
+     width: 100vh;
+     top: 70px;
+     right: 0px;
+     background: #e7e7e7;
+     display: block;
+     height: calc(100vh - 70px);
+     z-index: 1000;
+   }
+   .topo.active .menu{
+    display: block;
+   } */
+  
 
-  /* Banner */
 
-  .banner h1 {
-    font-size: 1.5rem;
-  }
-
-  /* Localização */
-
-  .location2 {
-    width: 350px;
-  }
-  .localizacao h2 {
-    font-size: 1.5rem;
-  }
-
-  .btn {
-    width: 320px;
-  }
-  .btn a {
-    font-size: 22px;
-  }
-
-  .btn a img {
-    font-size: 20px;
-    margin-bottom: -1rem;
-  }
-  footer h3 {
-      font-size: 1rem;
-  }
 }
