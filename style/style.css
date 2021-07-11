@@ -3,9 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 body {
-  overflow-x: hidden;
+overflow-x: hidden;
+
 }
 .container {
   display: flex;
@@ -14,29 +16,86 @@ body {
 img {
   max-width: 100vw;
 }
-
-.imgLogo {
-  width: 200px;
-}
 header {
   width: 100%;
   background: #13436a;
 }
 
-
-#menu{
-  display: flex;
-  gap: 1.5rem;
-  list-style: none;
-  
-}
-
-#menu a{
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none;
+/*  Desktop menu */
+a {
   color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  a:hover{
+    opacity: 0.7;
 
+  }
+
+  footer{
+    background: #13436a;
+    width: 100%;
+    display: flex;  
+    justify-content: space-around;
+  }
+
+  footer h1{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  footer p{
+    font-weight: bold;
+    font-family: 'Poppins';
+    color: white;
+    font-size: 12px;
+  }
+
+  footer img{
+    width: 20px;
+  }
+  .footer-img{
+    width: 50px;
+  }
+  .icon{
+   
+    margin-left: 1rem;
 }
+  
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins';
+    height: 8vh;
+  }
+  .nav-list{
+    list-style: none;
+    display: flex;
+  }
+
+  .nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+    
+  }
+  .mobile-menu{
+    cursor: pointer;
+    display: none;
+  }
+
+  .mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background-color: aliceblue;
+    margin: 8px;
+    transition: .3s;
+  }
+
+  
+/*  Desktop menu */
 
 .containerH {
   display: flex;
@@ -180,6 +239,7 @@ header {
   padding: 20px;
   text-align: center;
   border-radius: 10px;
+  margin-top: 1rem;
 }
 /* bebida */
 
@@ -282,34 +342,19 @@ header {
   background-color: rgb(37, 146, 64);
 }
 
-footer {
-  width: 100vw;
-  height: 60px;
-  background: #13436a;
-}
-footer h3 {
-  font-family: "Montserrat";
-  font-size: 20px;
-  color: white;
-  text-align: center;
-  line-height: 50px;
-}
 
 /* Scroll*/
-
 ::-webkit-scrollbar {
-  width: 4px; /* width of the entire scrollbar */
+  width: 4px; 
 }
 
 ::-webkit-scrollbar-track {
-  background: #f2e41b; /* color of the tracking area */
+  background: #f2e41b; 
 }
 
 ::-webkit-scrollbar-thumb {
   width: 4px;
-  background-color: red; /* color of the scroll thumb */
-  /* roundness of the scroll thumb */
-  /* creates padding around scroll thumb */
+  background-color: red; 
 }
 
 body {

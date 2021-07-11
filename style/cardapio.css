@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    margin-top: 2rem;
+}
+.burgers2{
+    margin-bottom: 2rem;
+}
+.icon{
+   
+    margin-left: 1rem;
+}
